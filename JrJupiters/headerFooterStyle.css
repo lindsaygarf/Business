@@ -2,6 +2,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+    max-width:100%;
 }
 
 .container {
@@ -9,7 +10,8 @@ header {
     justify-content: space-between; /* Pushes the logo and nav to the edges */
     background-color:rgb(255, 245, 255);
     align-items: center; /* Vertically center items */
-    /* padding: 10px 20px;  */
+    padding: 10px 20px; 
+    max-width:100%;
 }
 
 .left {
