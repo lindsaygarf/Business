@@ -63,11 +63,12 @@ header {
 @media (max-width: 950px) {
     .right li a {
         text-decoration: none;
+        text-align: center;
         font-size: 13px;
         color: rgb(15, 6, 82); 
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding: 5px;
-        margin: 0px;
+        padding: 0px;
+        margin: 6px;
         border-radius: 50%;
     }
 
