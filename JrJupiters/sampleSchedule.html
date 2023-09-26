@@ -4,8 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             .sample {
-                margin-left: 0px; /* Adjust the value to control the left margin */
-                margin-right: 0px; /* Adjust the value to control the right margin */
+                margin-left: 20px; /* Adjust the value to control the left margin */
+                margin-right: 20px; /* Adjust the value to control the right margin */
                 margin-bottom: 20px;
             }
             
@@ -38,13 +38,19 @@
                 text-align: center;
             }
             .styled-table {
-                width: 100%;
+                width: 90%;
                 border-collapse: collapse;
                 border-spacing: 0;
                 margin-bottom: 20px;
             }
 
             .wrap {
+                display: flex;
+                justify-content: center; /* Center horizontally */
+                align-items: center; /* Center vertically */
+            }
+
+            .wrap2 {
                 display: flex;
                 justify-content: center; /* Center horizontally */
                 align-items: center; /* Center vertically */
@@ -110,13 +116,15 @@
                     </table>
                 </div>
                 <h2>We hope to combat these three challenges through our programming:</h1>
-                <table class="styled-table">
-                    <tr>
-                        <td>Maladaptive development caused by parental separation</td>
-                        <td>Mother's lack of parenting skills because of this separation</td>
-                        <td>Child's poor sense of community and feelings of loneliness</td>
-                    </tr>
-                </table>
+                <div class="wrap2">
+                    <table class="styled-table">
+                        <tr>
+                            <td>Maladaptive development caused by parental separation</td>
+                            <td>Mother's lack of parenting skills because of this separation</td>
+                            <td>Child's poor sense of community and feelings of loneliness</td>
+                        </tr>
+                    </table>
+                </div>
             </main>
         </div>
     </body>
