@@ -1,0 +1,27 @@
+.mailingContainer {
+    margin-left: 20px; /* Adjust the value to control the left margin */
+    margin-right: 20px; /* Adjust the value to control the right margin */
+    margin-bottom: 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 6, 82);
+    font-size: 15px;
+}
+
+.mailingContainer p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(214, 105, 62);
+    font-size: 23px;
+}
+
+.mailingContainer p3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 6, 82);
+    font-size: 17px;
+}
+
+p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 6, 82);
+    font-size: 17px;
+}
