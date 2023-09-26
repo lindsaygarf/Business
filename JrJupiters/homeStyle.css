@@ -5,12 +5,12 @@
     background-position: center;
     height: 70vh;
     display: flex;
-    flex-direction: column; /* Stack children in a column layout */
-    justify-content: flex-end; /* Push children to the bottom */
-    align-items: flex-end; /* Push children to the right */
-    padding: 55px; /* Add padding to the bottom and right */
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    padding: 55px; 
     color: #fff;
-    position: relative; /* Establish positioning context for slogan */
+    position: relative; 
     z-index: 0;
 }
 

@@ -99,6 +99,7 @@ header {
     text-decoration: none;
     display: inline;
     justify-content: flex-end;
+    margin: 7px;
     align-items: center;
 }
 
