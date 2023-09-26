@@ -53,11 +53,12 @@ header {
     color: rgb(15, 6, 82);
 }
 
-.left h1 {
+.left a {
     text-decoration: none; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(214, 105, 62);
     font-size: 30px;
+    font-weight: bold;
 }
 
 @media (max-width: 950px) {
@@ -72,7 +73,7 @@ header {
         border-radius: 50%;
     }
 
-    .left h1 {
+    .left a {
         text-decoration: none; 
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: rgb(214, 105, 62);
